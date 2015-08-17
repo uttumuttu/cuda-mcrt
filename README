@@ -1,0 +1,6 @@
+This is a GPU-optimized (CUDA) Monte Carlo ray tracer.
+It implements the classic path tracing and photon
+mapping algorithms. The OOP-based utility classes
+(namespace niwa::gl_util) notwithstanding, the code mostly
+demonstrates low-level optimizations, and employs template
+metaprogramming, bithacks and SIMD-style optimizations.
